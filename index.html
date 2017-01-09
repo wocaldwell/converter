@@ -4,11 +4,11 @@
 </head>
 <body>
     <form>
-        <label for="userInput">Enter a temperature:</label><br>
-        <input type="text" id="userInput"  /><br>
         <label for="convert-to">Convert Temperature to:</label><br>
         <input type="radio" name="convert-to" id="celsius" value="celsius"/>Celsius
         <input type="radio" name="convert-to" id="fahrenheit" value="fahrenheit"/>Fahrenheit<br>
+        <label for="userInput">Enter a temperature:</label><br>
+        <input type="text" id="userInput"  /><br>
         <button type="button" id="converter" onClick="determineConverter()">Convert!</button>
         <button type="button" onClick="refreshPage()">Clear Input</button><br>
         <h1 id="converted"></h1>
