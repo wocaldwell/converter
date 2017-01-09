@@ -36,7 +36,7 @@ function refreshPage(){
 
 //Font color based on temp.
 
-//NOPE, TRY AGAIN
+
 function tempColor() {
     if (celConversion >= 32 || fahConversion >= 90) {
         var textColor = document.getElementById("converted").style.color = "#FF0000";
@@ -57,7 +57,7 @@ function tempColor() {
 //     }
 // });
 
-//CLOSE, BUT CONVERSIION ONLY APPEARS FOR AN INSTANT
+//Works!!
 document.getElementById('userInput').onkeypress=function(e){
     if(e.keyCode==13){
         e.preventDefault();
